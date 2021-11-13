@@ -20,7 +20,7 @@ public class TestCasesPage extends BasePage {
 	@Test(priority=2)
 	public void createFeedback() throws InterruptedException {
 		Feedback = new FeedbackPage(driver);
-		Feedback.createFeedbackMethod();
+		Feedback.feedbackMethod();
 	}
 	
 }

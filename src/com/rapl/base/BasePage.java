@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 
 public class BasePage {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeClass
 		public void startApplication() {			
